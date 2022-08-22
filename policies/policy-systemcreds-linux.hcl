@@ -6,3 +6,6 @@ path "systemcreds/*" {
 path "systemcreds/data/linux/*" {
   capabilities = ["list", "read"]
 }
+path "systemcreds/metadata/linux/*" {
+  capabilities = ["list", "read"]
+}
